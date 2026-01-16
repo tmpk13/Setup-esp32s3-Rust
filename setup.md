@@ -20,7 +20,7 @@ cargo install esp-generate --locked
 esp-generate --chip esp32s3 -o stack-smashing-protection -o esp-backtrace -o esp [-o editor:zed] <project>
 ```
 
-### Or with cargo generate
+#### *Or with cargo generate*
 ``` sh
 cargo generate esp-rs/esp-idf-template cargo
 ```
