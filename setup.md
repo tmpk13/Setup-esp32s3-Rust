@@ -17,7 +17,7 @@ cargo install esp-generate --locked
 
 ### Generate a project with esp-generate
 ``` sh
-esp-generate --chip esp32s3 -o stack-smashing-protection -o esp-backtrace -o esp [-o editor:zed] <project>
+esp-generate --chip esp32s3 -o stack-smashing-protection -o esp-backtrace [-o editor:zed] <project>
 ```
 
 #### *Or with cargo generate*
